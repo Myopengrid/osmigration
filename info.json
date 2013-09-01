@@ -1,0 +1,42 @@
+{
+    "name": "Opensim Migration",
+    "slug": "osmigration",
+    "version": "0.0.1",
+    "core_version": "0.0.1",
+    "type": "module",
+    "description": "Migrate users from an existing grid to MWI.",
+    "keywords": ["opensim","migration"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jefferson Costella",
+            "email": "jeff@localhost",
+            "role": "Lead Developer"
+        }
+    ],
+    "roles" : [],
+    "required":[
+        {
+            "name": "opensim",
+            "version": "0.0.1"
+        },
+        {
+            "name": "groups",
+            "version": "0.0.1"
+        }
+    ],
+    "options": {
+            "handles": "osmigration",
+            "auto": true
+    },
+    "menu": [
+        {
+            "main_menu" : "Users",
+            "title"     : "Migrate Users",
+            "url"       : "osmigration",
+            "class"     : "",
+            "li_class"  : "",
+            "children"  : []
+        }
+    ]
+}
