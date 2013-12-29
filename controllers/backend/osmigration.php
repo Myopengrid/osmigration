@@ -144,8 +144,8 @@ class Osmigration_Backend_Osmigration_Controller extends Admin_Controller {
         {
             $rules = array(
                 'email'     => 'required|email',
-                'firstname' => 'required|min:3|alpha_dash',
-                'lastname'  => 'required|min:3|alpha_dash',
+                'firstname' => 'required|min:2|alpha_dash',
+                'lastname'  => 'required|min:2|alpha_dash',
             );
 
             foreach ($migration_users as $uuid => $user) 
